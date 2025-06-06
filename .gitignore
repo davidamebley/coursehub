@@ -1,0 +1,45 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+logs/
+*.tlog
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore build and dist directories
+dist/
+build/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore coverage reports
+coverage/
+
+# Ignore yarn and npm debug files
+yarn-error.log
+npm-debug.log
+
+# Ignore generated files
+*.generated.*
+*.min.*
+
+# Ignore package lock files (optional)
+package-lock.json
+yarn.lock
